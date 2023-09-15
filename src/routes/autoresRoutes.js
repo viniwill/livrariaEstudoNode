@@ -8,6 +8,7 @@ router
   .get("/autores/:id", AutorController.listarAutorPorId)
   .post("/autores", AutorController.cadastrarAutor)
   .put("/autores/:id", AutorController.atualizarAutor)
-  .delete("/autores/:id", AutorController.excluirAutor);
+  .delete("/autores/:id", AutorController.excluirAutor)
+  .teste("/autores/:id", AutorController.excluirAutor);
 
 export default router;
